@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CSS</title>
+
+     <style>
+        p{
+            background-color:  green;
+            color:  white;
+        }
+        /* class sel */
+        .line1{
+            background-color: black;
+        }
+        .line2{
+            background: pink;
+        }
+        /* ID Sel */
+        #line3{
+            background-color: yellow;
+        }
+        /* Attribute  selector  */
+        input[type="text"]{
+            padding: 10px;
+            background-color: red;
+        }
+        /* Psedudo Sel */
+        button:hover{
+            background-color: yellow;
+            padding: 10px;
+            /* border: 2px solid red; */
+            border: 2px dotted pink;
+        }
+        /*  Selector List */
+        h1,p{
+            background-color: rgb(69, 46, 3);
+        }
+     </style>
+
+</head>
+<body>
+    <h1>Jabir's SKILLS</h1>
+    <!--Inline CSS-->
+    <!-- <p style="background-color:  yellow; color: red; margin: 10p; padding: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minima?</p> -->
+
+<!-- 
+    Internal CSS -->
+<!-- 
+     <p> Internal-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, recusandae?</p> -->
+
+
+       <!-- External CSS -->
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, cumque.</p>
+         <!-- Class sel -->
+
+
+        <p class="line1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, cumque.</p>
+        <p class="line2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, cumque.</p>
+        <p id="line3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, cumque.</p>
+        <input type="text">
+        <button>Click me </button>
+</body>
+</html>
